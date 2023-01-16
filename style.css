@@ -1,0 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  background-color: rgb(52, 49, 49);
+  color: white;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-title{
+  margin-left: 20px;
+}
+
+.btn{
+  height: 35px;
+  width: 100px;
+  background-color: #1aa4b9;
+  color: white;
+  border: none;
+  font-size: 16px;
+  box-shadow: 5px 5px black;
+}
+
+.row{
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  margin: 10px auto;
+}
+
+.mainbox{
+height: 700px;
+width: 500px;
+/* flex: 2; */
+gap: 20px;
+margin: 10px;
+/* margin-left: 300px; */
+}
+
+.sidebar{
+  height: 700px;
+  width: 300px;
+  margin-right: 10px;
+  }
+
+.col-1{
+  height: 300px;
+  width: 100%;
+  border: 2px solid gray;
+  /* flex: 1; */
+  margin-bottom: 30px;
+}
+
+.toolBar{
+  height: 100px;
+  width: 100%;
+  background-color: #14a2b8
+}
+
+#userPic{
+  height: 80px;
+  position: relative;
+  top: 55px;
+  left: 35px;
+  border:4px solid white;
+  border-radius: 50%;
+}
+
+.name{
+  margin-top: 35px;
+  margin-left: 35px;
+  font-weight: lighter;
+  font-style:normal;
+}
+
+#name1{
+  color: black;
+  font-weight: bold;
+}
+
+#map {
+  height: 15px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.city {
+  display: inline-block;
+  margin-left: 12px;
+  font-weight: lighter;
+  font-style:normal;
+  margin-bottom: 5px;
+
+}
+.description {
+  font-weight: lighter;
+  font-style:normal;
+  margin-left: 35px;
+}
+#gearicon{
+  height: 15px;
+  margin-left: 37px;
+  margin-top: 15px;
+}
+
+.editProfile {
+  display: inline-block;
+  align-items: center;
+  text-decoration: underline;
+  color: #314b83;
+  margin-left: 4px;
+  font-weight: lighter;
+  font-style:normal;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.col-2{
+  height: 300px;
+  width: 100%;
+  border: 2px solid gray;
+  flex: 1;
+  }
+
+
+.col-3{
+  height: 200px;
+  width: 100%;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.col-4{
+  height: 400px;
+  width: 100%;
+  border: 2px solid gray;
+}
+
+.toolBar2{
+  height: 20%;
+  width: 100%;
+  background-color: rgb(52, 49, 49);
+  color: white;
+  text-indent: 20px;
+}
+
+#word1{
+  display: inline-block;
+  color: white;
+  padding-top: 20px;
+} 
+
+#subhead{
+font-size: 30px;
+margin-top: 10px;
+text-indent: 20px;
+}
+
+#subhead1{
+color: gray;
+margin-top: 10px;
+text-indent: 20px;
+}
+
+.subhead2{
+font-size: 20px;
+margin-top: 10px;
+text-indent: 20px;
+font-weight: bold;
+}
+
+.toolBar3{
+  height: 27%;
+  width: 100%;
+  background-color: rgb(52, 49, 49);
+}
+
+.btn2{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border:none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#userPic1{
+  height: 30px;
+  border:4px solid white;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.toolBar4{
+  height: 60px;
+  width: 240px;
+  background-color: rgb(52, 49, 49);
+}
+
+.toolBar5{
+  height: 40px;
+  width: 100%;
+  border: 0.5px solid gray;
+  position: absolute;
+  bottom: 0;
+}
+
+#viewmore{
+  text-indent: 10px;
+  padding-top: 10px;
+}
+
+#wordconnect{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#ConnRequests{
+  height: 73%;
+  /* width: 50%; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+#ToddPic{
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#ToddPic p{
+  padding-top: 20px;
+}
+
+#PhilPic{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#PhilPic p{
+  padding-top: 20px;
+}
+
+#acceptDecline{
+padding-left: 110px;
+padding-top: 15px;
+
+}
+
+
+#yourConnect{
+  color: white;
+  text-align:left;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.btn3{
+  height: 25px;
+  width: 45px;
+  border-radius: 50%;
+  border:none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#userPic2{
+  height: 30px;
+  border:4px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+
+img{
+  height: 30px;
+  margin-left: 15p;
+}
